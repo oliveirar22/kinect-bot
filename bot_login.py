@@ -11,11 +11,11 @@ app = Flask(__name__)
 # CONFIGURAÇÃO — define estas no dashboard do Render como
 # Environment Variables (nunca hardcodes secrets no código)
 # ──────────────────────────────────────────────────────────────
-CLIENT_ID     = os.getenv("DISCORD_CLIENT_ID",     "1494081400108744774")
-CLIENT_SECRET = os.getenv("DISCORD_CLIENT_SECRET", "2a6rAybvScpu_-duW7gIPjQeDdv_7Qhn")
-GUILD_ID      = os.getenv("DISCORD_GUILD_ID",      "1494034686677356746")
-REQUIRED_ROLE = os.getenv("DISCORD_REQUIRED_ROLE", "1494079632075391036")
-BOT_TOKEN     = os.getenv("DISCORD_BOT_TOKEN",     "MTQ5NDA4MTQwMDEwODc0NDc3NA.Glb8sV.Vc-_-AQGdSwU3IUCDyGzRTRNjnCboOg3JBLs_s")
+CLIENT_ID     = os.getenv("DISCORD_CLIENT_ID",     "SEU_CLIENT_ID")
+CLIENT_SECRET = os.getenv("DISCORD_CLIENT_SECRET", "SEU_CLIENT_SECRET")
+GUILD_ID      = os.getenv("DISCORD_GUILD_ID",      "ID_DO_SERVIDOR")
+REQUIRED_ROLE = os.getenv("DISCORD_REQUIRED_ROLE", "ID_DO_CARGO")
+BOT_TOKEN     = os.getenv("DISCORD_BOT_TOKEN",     "SEU_BOT_TOKEN")
 BASE_URL      = os.getenv("BASE_URL", "https://o-teu-app.onrender.com")
 # ──────────────────────────────────────────────────────────────
 
